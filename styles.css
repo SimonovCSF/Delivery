@@ -1,0 +1,42 @@
+#left, #right
+{
+	position: absolute;
+	height: 100%;
+	top: 0; 
+}
+#left 
+{	 
+	left: 0;
+	width: 60%; 
+	background: #fff5d2;
+	
+}
+#right 
+{	
+	right: 0; 	
+	width: 40%; 
+	background: #d3f6e9;
+}
+
+.photo
+{
+	border-radius: 50% 50%;
+    border: 0px;
+}
+
+.selected_switch, .unselected_switch
+{
+	margin-top: 5%;
+	width: 100%;
+	height: 100%;
+	font-size: 14pt;
+	color: black;
+}
+.selected_switch
+{
+	background-color: #4991ac;	
+}
+.unselected_switch
+{
+	background-color: #8cdad5;
+}
